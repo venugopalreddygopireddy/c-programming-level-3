@@ -1,0 +1,17 @@
+#include<stdio.h>
+int convert(int n)
+{
+    if(n==0)
+    {
+        return 0;
+    }
+    else
+    {
+        return(n/2+10*convert(n/2));
+    }
+    }
+    int main()
+    {
+        int n=13;
+        printf("the decimal number is %d to binary number %d",n,convert(n));
+    }
