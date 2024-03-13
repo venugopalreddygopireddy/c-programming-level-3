@@ -1,0 +1,18 @@
+#include<stdio.h>
+struct person
+{
+    int date;
+    int month;
+    int year;
+    int presentyear;
+    int age;
+};
+void main()
+{
+   
+    struct person p={6,5,2005,2024,p.age};
+     p.age=p.presentyear-p.year;
+    printf("person details:\n");
+    printf("date=%d\nmonth=%d\nyear=%d\nage=%d\n",p.date,p.month,p.year,p.age);
+    
+}
