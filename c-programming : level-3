@@ -1,0 +1,13 @@
+#include<stdio.h>
+struct car
+{
+    char make[20];
+    char model[20];
+    int year;
+};
+void main()
+{
+   struct car c={"maruthi suziki","breeza",2024};
+    printf("car details:\n");
+   printf("make=%s.\nmodel=%s.\nyear=%d.\n",c.make,c.model,c.year); 
+}
