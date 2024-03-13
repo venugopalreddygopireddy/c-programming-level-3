@@ -1,0 +1,14 @@
+#include<stdio.h>
+struct song
+{
+    char song[30];
+    char artist[20];
+    char album[20];
+    char duration[20];
+};
+void main()
+{
+    struct song s={"nanna niki pranam ivana","venugopalreddy","love","5.37minutes"};
+    printf("sond details:\n");
+    printf("song=%s.\nartist=%s.\nalbum=%s.\nduration=%s.\n",s.song,s.artist,s.album,s.duration);
+}
